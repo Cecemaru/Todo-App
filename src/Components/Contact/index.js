@@ -1,7 +1,12 @@
-import React from "react";
+import Lists from "./List";
 
 function Contact() {
-	return <div>Contact</div>;
+	return (
+		<div>
+			<h1>Todo List</h1>
+			<Lists />
+		</div>
+	);
 }
 
 export default Contact;
